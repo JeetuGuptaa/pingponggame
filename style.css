@@ -1,0 +1,40 @@
+body{
+    margin:0;
+}
+
+#scoreBoard{
+    width: 100vw;
+    height: 10vh;
+    background-color: #004aad;
+    text-align: center;
+    color: #ffF;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+#gameBody{
+    margin: 0;
+    background-color: #737373;
+    border:8px solid #000;
+    height: 90vh;
+    width: 100vw;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.rod{
+    position: absolute;
+    background-color: #004aad;
+    height:3vh;
+    width: 10vw;
+   
+}
+
+#ball{
+    height:1.5rem;
+    width: 1.5rem;
+    background-color: #fff;
+    position:absolute;
+    border-radius: 50%;
+}

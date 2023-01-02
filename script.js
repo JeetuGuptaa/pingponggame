@@ -28,8 +28,8 @@ else{
 var rodLeft = function(){
     let leftCount = topRod.style.left.substr(0,topRod.style.left.length-2);
 
-    if(leftCount-10>0){
-        topRod.style.left = leftCount - 10 + "px";
+    if(leftCount-20>0){
+        topRod.style.left = leftCount - 20 + "px";
         bottomRod.style.left = topRod.style.left;
     }
     else{
@@ -42,8 +42,8 @@ function rodRight(){
     let leftCount = topRod.style.left.substr(0,topRod.style.left.length-2);
     let leftconstrain = bodyCoords.width - 16 - rodCoords.width;
 
-    if((parseInt(leftCount)+10)<leftconstrain){
-        topRod.style.left = parseInt(leftCount) + 10 + "px";
+    if((parseInt(leftCount)+20)<leftconstrain){
+        topRod.style.left = parseInt(leftCount) + 20 + "px";
         bottomRod.style.left = topRod.style.left;
     }
     else{
